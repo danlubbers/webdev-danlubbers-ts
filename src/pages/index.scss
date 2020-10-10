@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$font-family: 'Roboto', sans-serif;
+$text-color: #999;
+$hover-color: #9d2e26;
+
+@import '../components/Bio/Bio.scss';
+
+html {
+  margin: auto 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #191919;
+}
+
+.app-wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  margin: auto 0;
+  padding: 0;
+  color: $text-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $hover-color;
+}
