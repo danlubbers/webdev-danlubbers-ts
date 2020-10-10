@@ -1,0 +1,40 @@
+.social-media-container-nested {
+  margin: 0 auto;
+}
+.social-media {
+  width: 25%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+
+  @media (max-width: 768px) {
+    width: 40%;
+  }
+}
+
+.github svg {
+  padding: 0 10px;
+  width: 35px;
+  height: 35px;
+  color: #999;
+}
+
+.linkedin {
+  @extend .github;
+}
+
+.instagram {
+  @extend .github;
+}
+
+.camera {
+  @extend .github;
+}
+
+.github svg:hover,
+.linkedin:hover,
+.instagram:hover,
+.camera:hover {
+  color: #9d2e26;
+}

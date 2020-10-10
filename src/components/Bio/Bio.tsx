@@ -1,14 +1,16 @@
 // import Codewars from './codewars/Codewars';
 import bioImage from '../../assets/images/bio.jpg';
-// import SocialMedia from '../components/SocialMedia';
+import SocialMedia from '../SocialMedia/SocialMedia';
 import React from 'react';
-import './Bio.scss';
+import './_Bio.scss';
 
 const Bio = () => {
   return (
     <div className="bio-container">
       <img className="bio-image" src={bioImage} alt="bio" />
-      <div className="social-media-container">{/* <SocialMedia /> */}</div>
+      <div className="social-media-container">
+        <SocialMedia />
+      </div>
       {/* <Codewars /> */}
       <p className="about-section">
         Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
@@ -21,7 +23,7 @@ const Bio = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Amazon's Largest Photo Studio
+          Amazon&apos;s Largest Photo Studio
         </a>{' '}
         photographing and retouching for the Jewelry and Watch department. He was the lead retoucher
         for the 2018 AD campaign for{' '}
@@ -60,8 +62,8 @@ const Bio = () => {
         coffee shops working diligently on his work either at home or when traveling.{' '}
       </p>
       <p className="about-section quote">
-        "Life is too short not to create something with every breath we draw." ~ Maynard James
-        Keenan
+        &quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard
+        James Keenan
       </p>
     </div>
   );

@@ -1,6 +1,6 @@
 import Logo from '../../assets/logos/danlubbers-logo.png';
 import React from 'react';
-import './Header.scss';
+import './_Header.scss';
 
 const Header = () => (
   <div className="header">
