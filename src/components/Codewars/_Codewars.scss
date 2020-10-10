@@ -62,11 +62,13 @@
       }
 
       .kyu {
-        padding: 22px 8px 0 13px;
+        padding: 22px 8px 0 15px;
         color: #346490;
+        font-size: 14px;
 
         @media (max-width: 667px) {
           padding: 1px 10px 2px 12px;
+          font-size: 9px;
         }
       }
       .honor {
