@@ -1,4 +1,4 @@
-// import Codewars from './codewars/Codewars';
+import Codewars from '../Codewars//Codewars';
 import bioImage from '../../assets/images/bio.jpg';
 import SocialMedia from '../SocialMedia/SocialMedia';
 import React from 'react';
@@ -11,7 +11,7 @@ const Bio = () => {
       <div className="social-media-container">
         <SocialMedia />
       </div>
-      {/* <Codewars /> */}
+      <Codewars />
       <p className="about-section">
         Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
         Retouching. Lubbers got his start with Extreme Sports Photography when he was the sole

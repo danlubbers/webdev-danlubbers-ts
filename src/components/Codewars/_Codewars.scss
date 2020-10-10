@@ -1,0 +1,98 @@
+.codewars-wrapper {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(215, 215, 215);
+  font-family: 'Roboto';
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    span {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+
+      .graphic-header {
+        margin-left: 10px;
+        height: 57px;
+        width: 53vw;
+        max-width: 500px;
+        min-width: 500px;
+
+        @media (max-width: 667px) {
+          height: 35px;
+          max-width: 300px;
+          min-width: 300px;
+        }
+      }
+
+      .rank-name-wrapper {
+        position: absolute;
+        margin: 0 10px 0 25px;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        @media (max-width: 667px) {
+          margin: 0 5px 0 15px;
+        }
+      }
+
+      h2 {
+        padding: 21px 0 0 14px;
+        font-size: 18px;
+
+        @media (max-width: 667px) {
+          padding: 0 0 0 7px;
+          font-size: 9px;
+        }
+      }
+
+      .username {
+        margin-left: 5px;
+        letter-spacing: 1px;
+      }
+
+      .kyu {
+        padding: 20px 8px 0 12px;
+        color: #346490;
+
+        @media (max-width: 667px) {
+          padding: 1px 10px 2px 12px;
+        }
+      }
+      .honor {
+        margin-left: 175px;
+        padding-left: 8px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #999999;
+
+        @media (max-width: 667px) {
+          margin-left: 100px;
+        }
+      }
+      .codewars-logo {
+        margin: 20px 0 0 10px;
+        padding: 0;
+        width: 40px;
+
+        @media (max-width: 667px) {
+          margin: 0 0 0 5px;
+          padding: 0;
+          width: 20px;
+        }
+      }
+    }
+  }
+}

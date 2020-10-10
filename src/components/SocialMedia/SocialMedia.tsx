@@ -11,7 +11,6 @@ const SocialMedia = () => (
           aria-label="github danlubbers"
           target="_blank"
           rel="noopener noreferrer"
-          alt="github"
         >
           <FaGithub />
         </a>
@@ -22,7 +21,6 @@ const SocialMedia = () => (
           aria-label="inkedin danlubbers"
           target="_blank"
           rel="noopener noreferrer"
-          alt="linkedin"
         >
           <FaLinkedin />
         </a>
@@ -33,7 +31,6 @@ const SocialMedia = () => (
           aria-label="instagram danlubber"
           target="_blank"
           rel="noopener noreferrer"
-          alt="instagram"
         >
           <FaInstagram />
         </a>
@@ -44,7 +41,6 @@ const SocialMedia = () => (
           aria-label="dan lubbers photographs"
           target="_blank"
           rel="noopener noreferrer"
-          alt="dan lubbers photographs"
         >
           <FaCamera />
         </a>
