@@ -7,7 +7,7 @@
   align-items: flex-start;
   justify-content: center;
   color: rgb(215, 215, 215);
-  font-family: 'Roboto';
+  font-family: 'Montserrat', sans-serif;
 
   .text-wrapper {
     display: flex;
@@ -62,7 +62,7 @@
       }
 
       .kyu {
-        padding: 20px 8px 0 12px;
+        padding: 22px 8px 0 13px;
         color: #346490;
 
         @media (max-width: 667px) {
