@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header';
 import Bio from '../components/Bio/Bio';
+import Technology from '../components/Technology/Technology';
 import React from 'react';
 import './index.scss';
 import Helmet from 'react-helmet';
@@ -25,10 +26,10 @@ const IndexPage = () => (
       <Header />
       <Bio />
     </div>
-    {/* <div>
-      <Skillset />
-    </div>
     <div>
+      <Technology />
+    </div>
+    {/* <div>
       <Projects />
     </div> */}
   </div>

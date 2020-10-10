@@ -20,6 +20,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "aos": "2.3.4",
     "gatsby": "2.24.73",
     "gatsby-plugin-sass": "2.1.14",
     "gatsby-plugin-typescript": "2.1.7",

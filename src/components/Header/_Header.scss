@@ -9,5 +9,8 @@
 }
 
 .header-logo {
-  width: 80%;
+  width: 40%;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 }
