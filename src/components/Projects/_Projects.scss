@@ -1,4 +1,66 @@
 .projects-container {
   margin: 0 auto;
+  padding-top: 25px;
   width: 95%;
+
+  .project-text {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    font-size: 1.4em;
+  }
+
+  .tech {
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+
+    h3 {
+      @extend .tech;
+    }
+
+    .details {
+      @extend .tech;
+      text-indent: 20px;
+      text-align: left;
+    }
+    .github-text {
+      @extend .details;
+    }
+  }
+
+  .screenshots {
+    margin-top: 40px;
+
+    .project-screenshot {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .promo-image {
+        width: 50%;
+
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

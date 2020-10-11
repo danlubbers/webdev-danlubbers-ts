@@ -57,8 +57,12 @@
       }
 
       .username {
-        margin-left: 5px;
+        margin-left: 15px;
         letter-spacing: 1px;
+
+        @media (max-width: 667px) {
+          margin-left: 5px;
+        }
       }
 
       .kyu {
