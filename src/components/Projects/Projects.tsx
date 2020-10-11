@@ -17,12 +17,12 @@ const Projects = () => {
       i: number,
     ) => {
       return (
-        <div key={i}>
+        <div className="projects-wrapper" key={i}>
           <span className="text">{project.client} :</span>
           <span className="text"> {project.position}</span>
           <p className="tech">{project.tech}</p>
           <section>
-            <h3>Details of Project :</h3>
+            <h3>Project Details:</h3>
             <p className="details">{project.details}</p>
             <a
               className="github-text"

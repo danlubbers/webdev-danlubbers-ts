@@ -7,5 +7,14 @@
     "github-repo": null,
     "promo-image": "psi-iphone-promo.png",
     "website": "app.psilife.com"
+  },
+  {
+    "client": "Sunny Ra",
+    "position": "Full-Stack Software Engineer | UX / UI | Photographer",
+    "tech": "React | HTML | Sass | Javascript | Redux | React Helmet  | PostgresSQL | Digital Ocean | Google Analytics",
+    "details": "Client/Artist, Sunny Ra wanted a complete redesign of her portfolio site. I created the wireframe and designed the layout and color scheme. I photographed her portrait for the 'About' section. I then built her site using Reactjs. I made the site fully responsive using Media Queries in SASS. I used React Helmet so google would be able to crawl her site searching for keywords helping SEO (Seach Engine Optimization). I added Google Analytics so Sunny can track her traffic going to her new site.",
+    "github-repo": "github.com/danlubbers/sunny-ra.com",
+    "promo-image": "sunny-ra-website-apple-devices-2019.png",
+    "website": "sunny-ra.com"
   }
 ]
