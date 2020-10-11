@@ -50,15 +50,15 @@
 
     .screenshots {
       margin-top: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
 
       .project-screenshot {
-        width: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .promo-image {
-          width: 100%;
+          width: 75%;
 
           @media (max-width: 768px) {
             width: 100%;

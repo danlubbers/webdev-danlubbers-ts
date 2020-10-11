@@ -24,14 +24,16 @@ const Projects = () => {
           <section>
             <h3>Project Details:</h3>
             <p className="details">{project.details}</p>
-            <a
-              className="github-text"
-              href={project['github-repo']}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GITHUB REPO
-            </a>
+            {project['github-repo'] && (
+              <a
+                className="github-text"
+                href={`http://${project['github-repo']}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GITHUB REPO
+              </a>
+            )}
             <div className="screenshots">
               <a
                 className="project-screenshot"

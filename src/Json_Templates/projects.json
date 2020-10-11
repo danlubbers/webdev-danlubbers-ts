@@ -11,10 +11,19 @@
   {
     "client": "Sunny Ra",
     "position": "Full-Stack Software Engineer | UX / UI | Photographer",
-    "tech": "React | HTML | Sass | Javascript | Redux | React Helmet  | PostgresSQL | Digital Ocean | Google Analytics",
+    "tech": "React | HTML | SASS | Javascript | Redux | React Helmet  | PostgresSQL | Digital Ocean | Google Analytics",
     "details": "Client/Artist, Sunny Ra wanted a complete redesign of her portfolio site. I created the wireframe and designed the layout and color scheme. I photographed her portrait for the 'About' section. I then built her site using Reactjs. I made the site fully responsive using Media Queries in SASS. I used React Helmet so google would be able to crawl her site searching for keywords helping SEO (Seach Engine Optimization). I added Google Analytics so Sunny can track her traffic going to her new site.",
     "github-repo": "github.com/danlubbers/sunny-ra.com",
     "promo-image": "sunny-ra-website-apple-devices-2019.png",
     "website": "sunny-ra.com"
+  },
+  {
+    "client": "Book Store",
+    "position": "Front-End Software Engineer",
+    "tech": "React | HTML | SASS | Javascript | UUID Authentication | Protected Routes | Context API",
+    "details": "Create a book store web application similar to Barnes & Nobles or Amazon. Users who visit the book store will have to sign in and once credentials are validated they can then go to their book shelf, search for new books in the database or see detailed information of a specific book on a separate page. They can save or move any book to one of three shelves: \"Want to Read\", \"Currently Reading\", or \"Read.\"",
+    "github-repo": "github.com/danlubbers/book-store",
+    "promo-image": "bookstore-media-promo.png",
+    "website": null
   }
 ]
