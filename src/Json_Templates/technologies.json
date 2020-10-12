@@ -1,0 +1,98 @@
+[
+  {
+    "technology": "GIT",
+    "logo": "git-logo.png"
+  },
+  {
+    "technology": "GITHUB",
+    "logo": "github-logo.svg"
+  },
+  {
+    "technology": "REACT",
+    "logo": "react-logo.png"
+  },
+  {
+    "technology": "GATSBY",
+    "logo": "gatsby-logo.png"
+  },
+  {
+    "technology": "HTML5",
+    "logo": "html5-logo.png"
+  },
+  {
+    "technology": "CSS3",
+    "logo": "css3-logo.png"
+  },
+  {
+    "technology": "SASS",
+    "logo": "sass-logo.svg"
+  },
+  {
+    "technology": "JAVASCRIPT",
+    "logo": "javascript-logo.png"
+  },
+  {
+    "technology": "TYPESCRIPT",
+    "logo": "typescript-logo.png"
+  },
+  {
+    "technology": "MATERIAL UI",
+    "logo": "material-ui-logo.svg"
+  },
+  {
+    "technology": "REDUX",
+    "logo": "redux-logo.png"
+  },
+  {
+    "technology": "NODE",
+    "logo": "node-logo.png"
+  },
+  {
+    "technology": "NGINX",
+    "logo": "nginx-logo.png"
+  },
+  {
+    "technology": "DIGITAL OCEAN",
+    "logo": "digital-ocean-logo.png"
+  },
+  {
+    "technology": "NETLIFY",
+    "logo": "netlify-logo.png"
+  },
+  {
+    "technology": "POSTGRESQL",
+    "logo": "postgresql-logo.png"
+  },
+  {
+    "technology": "POSTMAN",
+    "logo": "postman-logo.png"
+  },
+  {
+    "technology": "EXPRESS",
+    "logo": "express-logo.png"
+  },
+  {
+    "technology": "JEST",
+    "logo": "jest-logo.svg"
+  },
+  {
+    "technology": "CAPTUREONE",
+    "logo": "capture-one-logo.png"
+  },
+  {
+    "technology": "HELICON FOCUS",
+    "logo": "helicon-logo.png"
+  },
+  {
+    "technology": "ADOBE LIGHTROOM",
+    "logo": "adobe-lightroom-logo.png"
+  },
+  {
+    "technology": "ADOBE PHOTOSHOP",
+    "logo": "adobe-photoshop-logo.png"
+  },
+  {
+    "technology": "ADOBE XD",
+    "logo": "adobe-xd-logo.png"
+  }
+]
