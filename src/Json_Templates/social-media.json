@@ -1,0 +1,26 @@
+[
+  {
+    "name": "github",
+    "website": "github.com/danlubbers",
+    "aria-label": "github danlubbers",
+    "react-icon": "FaGithub"
+  },
+  {
+    "name": "linkedin",
+    "website": "linkedin.com/in/danlubbers",
+    "aria-label": "linkedin danlubbers",
+    "react-icon": "FaLinkedin"
+  },
+  {
+    "name": "instagram",
+    "website": "instagram.com/danlubbers",
+    "aria-label": "instagram danlubbers",
+    "react-icon": "FaInstagram"
+  },
+  {
+    "name": "photography",
+    "website": "danlubbersphotographs.com",
+    "aria-label": "dan lubbers photographs",
+    "react-icon": "FaCamera"
+  }
+]

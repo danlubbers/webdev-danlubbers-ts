@@ -44,6 +44,7 @@ const Projects = () => {
                 <img
                   className="promo-image"
                   src={require(`../../assets/images/${project['promo-image']}`)}
+                  alt={`${project['promo-image']}`}
                 />
               </a>
             </div>

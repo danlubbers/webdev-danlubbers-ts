@@ -58,7 +58,7 @@
         align-items: center;
 
         .promo-image {
-          width: 75%;
+          max-width: 75%;
 
           @media (max-width: 768px) {
             width: 100%;

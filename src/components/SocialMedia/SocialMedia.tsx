@@ -1,51 +1,46 @@
+import socialMediaJSON from '../../Json_Templates/social-media.json';
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaCamera } from 'react-icons/fa';
 import './_SocialMedia.scss';
+import { IconType } from 'react-icons';
 
 const SocialMedia = () => (
-  <div className="social-media-container-nested">
-    <div className="social-media">
-      <div className="github">
-        <a
-          href="http://github.com/danlubbers"
-          aria-label="github danlubbers"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub />
-        </a>
-      </div>
-      <div className="linkedin">
-        <a
-          href="http://linkedin.com/in/danlubbers"
-          aria-label="inkedin danlubbers"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin />
-        </a>
-      </div>
-      <div className="instagram">
-        <a
-          href="http://instagram.com/danlubbers"
-          aria-label="instagram danlubber"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaInstagram />
-        </a>
-      </div>
-      <div className="camera">
-        <a
-          href="http://danlubbersphotographs.com"
-          aria-label="dan lubbers photographs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaCamera />
-        </a>
-      </div>
-    </div>
+  <div className="social-media-wrapper">
+    {socialMediaJSON.map(
+      (
+        media: { name: string; website: string; ['aria-label']: string; ['react-icon']: string },
+        index: number,
+      ) => {
+        let IconComponent: IconType = FaGithub;
+        switch (media['react-icon']) {
+          case 'FaGithub':
+            IconComponent = FaGithub;
+            break;
+          case 'FaLinkedin':
+            IconComponent = FaLinkedin;
+            break;
+          case 'FaInstagram':
+            IconComponent = FaInstagram;
+            break;
+          case 'FaCamera':
+            IconComponent = FaCamera;
+            break;
+        }
+
+        return (
+          <div key={index} className="social-media-icon">
+            <a
+              href={`http://${media.website}`}
+              aria-label={media['aria-label']}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconComponent />
+            </a>
+          </div>
+        );
+      },
+    )}
   </div>
 );
 
