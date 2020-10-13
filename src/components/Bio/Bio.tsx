@@ -8,9 +8,9 @@ const Bio = () => {
   return (
     <div className="bio-container">
       <img className="bio-image" src={bioImage} alt="bio" />
-      <div className="social-media-container">
-        <SocialMedia />
-      </div>
+
+      <SocialMedia />
+
       <Codewars />
       <p className="about-section">
         Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &

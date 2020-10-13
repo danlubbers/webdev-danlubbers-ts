@@ -11,7 +11,7 @@
   {
     "client": "Sunny Ra",
     "position": "Full-Stack Software Engineer | UX / UI | Photographer",
-    "tech": "React | HTML | SASS | Javascript | Redux | React Helmet  | PostgresSQL | Digital Ocean | Google Analytics",
+    "tech": "React | HTML | SASS | Javascript | Redux | Express | React Helmet | PostgresSQL | Digital Ocean | Google Analytics",
     "details": "Client/Artist, Sunny Ra wanted a complete redesign of her portfolio site. I created the wireframe and designed the layout and color scheme. I photographed her portrait for the 'About' section. I then built her site using Reactjs. I made the site fully responsive using Media Queries in SASS. I used React Helmet so google would be able to crawl her site searching for keywords helping SEO (Seach Engine Optimization). I added Google Analytics so Sunny can track her traffic going to her new site.",
     "github-repo": "github.com/danlubbers/sunny-ra.com",
     "promo-image": "sunny-ra-website-apple-devices-2019.png",
@@ -25,5 +25,23 @@
     "github-repo": "github.com/danlubbers/book-store",
     "promo-image": "bookstore-media-promo.png",
     "website": null
+  },
+  {
+    "client": "Retroboard",
+    "position": "Front-End Software Engineer",
+    "tech": "React | HTML | SASS | Javascript ",
+    "details": "A retrospective board is used within the Scrum workflow. Scrum is the most popular Agile style of software project management used to guide the software development life cycle. Scrum style management is based on four basic ceremonies for each sprint or software release: the 1.) Sprint Planning meeting, 2.) Daily Stand-up, 3.) Sprint Review, and 4.) Sprint Retrospective. As a part of the Sprint Retrospective, team members will use a retrospective board to reflect on what went well and what they need to improve on for next time.",
+    "github-repo": "github.com/danlubbers/retro-board",
+    "promo-image": null,
+    "website": null
+  },
+  {
+    "client": "TrailSpot",
+    "position": "Front-End Software Engineer",
+    "tech": "React | HTML | SASS | Javascript | Express | Digital Ocean",
+    "details": "A web app that gets the users location and gives a selection of trails around the area or the user can search by city/state to find trails for future trips. Current weather conditions are shown for the searched location as well.",
+    "github-repo": "github.com/danlubbers/trailspot-reactjs",
+    "promo-image": "trailspot-iphone-promo.png",
+    "website": "trailspot.danlubbers.com/"
   }
 ]

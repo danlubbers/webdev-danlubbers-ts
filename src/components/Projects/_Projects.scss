@@ -46,6 +46,10 @@
       .github-text {
         @extend .details;
       }
+      .github-text:hover {
+        color: #9d2e26;
+        cursor: pointer;
+      }
     }
 
     .screenshots {

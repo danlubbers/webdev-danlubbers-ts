@@ -11,8 +11,8 @@ const Projects = () => {
         tech: string;
         details: string;
         'github-repo': string;
-        'promo-image': string;
-        website: string;
+        'promo-image': string | null;
+        website: string | null;
       },
       i: number,
     ) => {
@@ -35,18 +35,20 @@ const Projects = () => {
               </a>
             )}
             <div className="screenshots">
-              <a
-                className="project-screenshot"
-                href={`http://${project.website}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="promo-image"
-                  src={require(`../../assets/images/${project['promo-image']}`)}
-                  alt={`${project['promo-image']}`}
-                />
-              </a>
+              {project['promo-image'] && (
+                <a
+                  className="project-screenshot"
+                  href={`http://${project.website}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="promo-image"
+                    src={require(`../../assets/images/${project['promo-image']}`)}
+                    alt={`${project['promo-image']}`}
+                  />
+                </a>
+              )}
             </div>
           </section>
         </div>
