@@ -5,7 +5,7 @@
     "tech": "Git | Github | React | HTML | CSS/SASS | ES6+ Javascript | Typescript | Material UI | Google-Maps | Google Analytics | Twilio Chat",
     "details": "Psī is a mobile application that helps users navigate the complex issues of aging and caregiving for elderly loved ones, while providing significant value to Medicare Advantage (MA) health plans, employer groups, and commercial health plans. The Psī app is based on a rigorously tested face-to-face model, as well as proven telephonic advanced illness/family caregiving methods. Psī’s integrated health counseling model has demonstrated decreased hospitalizations in the senior’s last years of life, as well as improved quality of life for family caregivers and their loved ones. Utilizing a digital version of Psī’s model, MA plans will benefit from avoided hospitalizations, referrals to preferred providers, earlier hospice referrals, and reduced total costs in the last years of members’ lives. Employers and commercial health plans also can benefit from employees’ improved workplace productivity and decreased medical costs (anxiety, depression, and addiction).",
     "github-repo": null,
-    "promo-image": "psi-iphone-promo.png",
+    "promo-image": "psi-iphone-mbp-promo.png",
     "website": "app.psilife.com"
   },
   {
@@ -47,10 +47,19 @@
   {
     "client": "Arcteryx",
     "position": "Full-Stack Software Engineer",
-    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Digital Ocean",
+    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Hover | Digital Ocean",
     "details": "I chose to clone an e-commerce site. Cloning this site allowed me to showcase that I can take a design and recreate the layout into a full functioning site. I used CSS3/SASS for all of the styling and to make the design mobile responsive for iphone 6, 7, 8 and desktop. I used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" I used PostgreSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
     "github-repo": "github.com/danlubbers/arcteryx-clone",
     "promo-image": "arcteryx-mbp-promo.png",
     "website": "arcteryxclone.danlubbers.com"
+  },
+  {
+    "client": "Ruffdoggies",
+    "position": "Full-Stack Software Engineer",
+    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Hover | Digital Ocean",
+    "details": "Our group wanted to clone an e-commerce site. Cloning this site allowed us to showcase that we can take a design and recreate the layout into a full functioning site. We used CSS3/SASS for all of the styling. We used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" We used PostgresSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
+    "github-repo": "github.com/danlubbers/ruffwear-clone",
+    "promo-image": "ruffdoggies-mbp-promo.png",
+    "website": "ruffdoggies.danlubbers.com"
   }
 ]
