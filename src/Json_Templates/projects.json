@@ -32,7 +32,7 @@
     "tech": "React | HTML | SASS | Javascript ",
     "details": "A retrospective board is used within the Scrum workflow. Scrum is the most popular Agile style of software project management used to guide the software development life cycle. Scrum style management is based on four basic ceremonies for each sprint or software release: the 1.) Sprint Planning meeting, 2.) Daily Stand-up, 3.) Sprint Review, and 4.) Sprint Retrospective. As a part of the Sprint Retrospective, team members will use a retrospective board to reflect on what went well and what they need to improve on for next time.",
     "github-repo": "github.com/danlubbers/retro-board",
-    "promo-image": null,
+    "promo-image": "retroboard-mbp-promo.png",
     "website": null
   },
   {
@@ -43,5 +43,14 @@
     "github-repo": "github.com/danlubbers/trailspot-reactjs",
     "promo-image": "trailspot-iphone-promo.png",
     "website": "trailspot.danlubbers.com/"
+  },
+  {
+    "client": "Arcteryx",
+    "position": "Full-Stack Software Engineer",
+    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Digital Ocean",
+    "details": "I chose to clone an e-commerce site. Cloning this site allowed me to showcase that I can take a design and recreate the layout into a full functioning site. I used CSS3/SASS for all of the styling and to make the design mobile responsive for iphone 6, 7, 8 and desktop. I used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" I used PostgreSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
+    "github-repo": "github.com/danlubbers/arcteryx-clone",
+    "promo-image": "arcteryx-mbp-promo.png",
+    "website": "arcteryxclone.danlubbers.com"
   }
 ]
