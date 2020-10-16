@@ -61,5 +61,14 @@
     "github-repo": "github.com/danlubbers/ruffwear-clone",
     "promo-image": "ruffdoggies-mbp-promo.png",
     "website": "ruffdoggies.danlubbers.com"
+  },
+  {
+    "client": "Hangman",
+    "position": "Software Engineer",
+    "tech": "Javascript | Node",
+    "details": "Hangman game made entirely with Vanilla Javascript in Nodejs. Words are chosen at random. Only the letters A - Z will be accepted. The user will get 6 incorrect guesses before that round is over. A duplicate incorrect guess will not count against the user. Each round will start automatically after the first round is finished. The user can quit at any time by typing CTRL-C.",
+    "github-repo": "github.com/danlubbers/hangman",
+    "promo-image": "hangman-mbp-promo.png",
+    "website": null
   }
 ]
