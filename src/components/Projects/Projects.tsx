@@ -36,20 +36,18 @@ const Projects = () => {
               </a>
             )}
             <div className="screenshots">
-              {project['promo-image'] && (
-                <a
-                  className="project-screenshot"
-                  href={`http://${project.website}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="promo-image"
-                    src={require(`../../assets/images/${project['promo-image']}`)}
-                    alt={`${project['promo-image']}`}
-                  />
-                </a>
-              )}
+              <a
+                className="project-screenshot"
+                href={`http://${project.website}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="promo-image"
+                  src={require(`../../assets/images/${project['promo-image']}`)}
+                  alt={`${project['promo-image']}`}
+                />
+              </a>
             </div>
           </section>
         </div>
