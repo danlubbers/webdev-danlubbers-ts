@@ -46,7 +46,17 @@ const Bio = () => {
         >
           DevMountain
         </a>
-        . After graduating DevMountain, Dan moved to Upstate NY where he found{' '}
+        . After graduating{' '}
+        <a
+          className="devMtn"
+          href="https://devmountain.com/"
+          aria-label="DevMountain Bootcamp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          DevMountain
+        </a>
+        , Dan moved to Upstate NY where he found{' '}
         <a
           className="albanyCanCode"
           href="https://albanycancode.org/"

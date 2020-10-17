@@ -19,7 +19,7 @@
   },
   {
     "client": "Book Store",
-    "position": "Front-End Software Engineer",
+    "position": "AlbanyCanCode Project",
     "tech": "React | HTML | SASS | Javascript | UUID Authentication | Protected Routes | Context API",
     "details": "Create a book store web application similar to Barnes & Nobles or Amazon. Users who visit the book store will have to sign in and once credentials are validated they can then go to their book shelf, search for new books in the database or see detailed information of a specific book on a separate page. They can save or move any book to one of three shelves: \"Want to Read\", \"Currently Reading\", or \"Read.\"",
     "github-repo": "github.com/danlubbers/book-store",
@@ -28,7 +28,7 @@
   },
   {
     "client": "Retroboard",
-    "position": "Front-End Software Engineer",
+    "position": "AlbanyCanCode Project",
     "tech": "React | HTML | SASS | Javascript ",
     "details": "A retrospective board is used within the Scrum workflow. Scrum is the most popular Agile style of software project management used to guide the software development life cycle. Scrum style management is based on four basic ceremonies for each sprint or software release: the 1.) Sprint Planning meeting, 2.) Daily Stand-up, 3.) Sprint Review, and 4.) Sprint Retrospective. As a part of the Sprint Retrospective, team members will use a retrospective board to reflect on what went well and what they need to improve on for next time.",
     "github-repo": "github.com/danlubbers/retro-board",
@@ -37,7 +37,7 @@
   },
   {
     "client": "TrailSpot",
-    "position": "Front-End Software Engineer",
+    "position": "AlbanyCanCode Project",
     "tech": "React | HTML | SASS | Javascript | Express | Digital Ocean",
     "details": "A web app that gets the users location and gives a selection of trails around the area or the user can search by city/state to find trails for future trips. Current weather conditions are shown for the searched location as well.",
     "github-repo": "github.com/danlubbers/trailspot-reactjs",
@@ -46,7 +46,7 @@
   },
   {
     "client": "Arcteryx",
-    "position": "Full-Stack Software Engineer",
+    "position": "DevMountain: Personal Project",
     "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Hover | Digital Ocean",
     "details": "I chose to clone an e-commerce site. Cloning this site allowed me to showcase that I can take a design and recreate the layout into a full functioning site. I used CSS3/SASS for all of the styling and to make the design mobile responsive for iphone 6, 7, 8 and desktop. I used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" I used PostgreSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
     "github-repo": "github.com/danlubbers/arcteryx-clone",
@@ -55,7 +55,7 @@
   },
   {
     "client": "Ruffdoggies",
-    "position": "Full-Stack Software Engineer",
+    "position": "DevMountain: Group Project",
     "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Hover | Digital Ocean",
     "details": "Our group wanted to clone an e-commerce site. Cloning this site allowed us to showcase that we can take a design and recreate the layout into a full functioning site. We used CSS3/SASS for all of the styling. We used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" We used PostgresSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
     "github-repo": "github.com/danlubbers/ruffwear-clone",
@@ -64,7 +64,7 @@
   },
   {
     "client": "Hangman",
-    "position": "Software Engineer",
+    "position": "AlbanyCanCode Project",
     "tech": "Javascript | Node",
     "details": "Hangman game made entirely with Vanilla Javascript in Nodejs. Words are chosen at random. Only the letters A - Z will be accepted. The user will get 6 incorrect guesses before that round is over. A duplicate incorrect guess will not count against the user. Each round will start automatically after the first round is finished. The user can quit at any time by typing CTRL-C.",
     "github-repo": "github.com/danlubbers/hangman",
