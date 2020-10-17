@@ -20,6 +20,7 @@ const Projects = () => {
         <div className="projects-wrapper" key={i}>
           <span className="text">{project.client} :</span>
           <span className="text"> {project.position}</span>
+          <h3>Tech:</h3>
           <p className="tech">{project.tech}</p>
           <section>
             <h3>Project Details:</h3>
