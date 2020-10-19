@@ -3,6 +3,16 @@ import React from 'react';
 import './_Projects.scss';
 
 const Projects = () => {
+  const websiteImage = (project: string | null) => {
+    return (
+      <img
+        className="promo-image"
+        src={require(`../../assets/images/${project}`)}
+        alt={`${project}`}
+      />
+    );
+  };
+
   const renderProjectDetails = projectsJSON.map(
     (
       project: {
@@ -43,20 +53,10 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className="promo-image"
-                    src={require(`../../assets/images/${project['promo-image']}`)}
-                    alt={`${project['promo-image']}`}
-                  />
+                  {websiteImage(project['promo-image'])}
                 </a>
               ) : (
-                <div className="project-screenshot">
-                  <img
-                    className="promo-image"
-                    src={require(`../../assets/images/${project['promo-image']}`)}
-                    alt={`${project['promo-image']}`}
-                  />
-                </div>
+                <div className="project-screenshot">{websiteImage(project['promo-image'])}</div>
               )}
             </div>
           </section>
