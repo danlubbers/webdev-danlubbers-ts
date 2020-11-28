@@ -2,6 +2,7 @@ import './_Codewars.scss';
 import graphicHeader from '../../assets/graphics/codewars-header-graphic.png';
 import codewarsLogo from '../../assets/logos/codewars-logo-small.png';
 import axios from 'axios';
+import ReactGA from 'react-ga';
 import React, { useState, useEffect } from 'react';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       }
     })();
   }, [API, error]);
+
   return (
     <div className="App">
       <section className="codewars-wrapper">
@@ -32,6 +34,12 @@ const App = () => {
             href="https://www.codewars.com/users/danlubbers/"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => {
+              ReactGA.event({
+                category: 'Codewars',
+                action: 'User Clicked external link to go to Codewars Website',
+              });
+            }}
           >
             <span>
               <img className="graphic-header" src={graphicHeader} alt="header" />

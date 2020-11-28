@@ -1,6 +1,7 @@
 import projectsJSON from '../../Json_Templates/projects.json';
 import React from 'react';
 import './_Projects.scss';
+import ReactGA from 'react-ga';
 
 const Projects = () => {
   const websiteImage = (project: string | null) => {
@@ -41,6 +42,13 @@ const Projects = () => {
                 href={`http://${project['github-repo']}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() =>
+                  ReactGA.event({
+                    category: 'Projects',
+                    action: `[Github] - Clicked on a project link`,
+                    label: `[Github] - ${project.client}`,
+                  })
+                }
               >
                 GITHUB REPO
               </a>
@@ -52,6 +60,13 @@ const Projects = () => {
                   href={`http://${project.website}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() =>
+                    ReactGA.event({
+                      category: 'Projects',
+                      action: `[Website] - Clicked on a project link`,
+                      label: `[Website] - ${project.client}`,
+                    })
+                  }
                 >
                   {websiteImage(project['promo-image'])}
                 </a>

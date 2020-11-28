@@ -21,13 +21,14 @@
   },
   "dependencies": {
     "aos": "2.3.4",
-    "gatsby": "2.24.73",
+    "gatsby": "2.26.1",
     "gatsby-plugin-google-analytics": "2.3.17",
     "gatsby-plugin-sass": "2.1.14",
     "gatsby-plugin-typescript": "2.1.7",
     "node-sass": "4.14.1",
     "react": "16.9.0",
     "react-dom": "16.9.0",
+    "react-ga": "3.2.1",
     "react-helmet": "6.1.0",
     "react-icons": "3.11.0"
   },

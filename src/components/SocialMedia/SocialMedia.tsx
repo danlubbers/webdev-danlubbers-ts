@@ -3,7 +3,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaCamera } from 'react-icons/fa';
 import './_SocialMedia.scss';
 import { IconType } from 'react-icons';
-
+import ReactGA from 'react-ga';
 const SocialMedia = () => (
   <div className="social-media-container">
     <div className="social-media-wrapper">
@@ -35,6 +35,13 @@ const SocialMedia = () => (
                 aria-label={media['aria-label']}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() =>
+                  ReactGA.event({
+                    category: 'Social Media',
+                    action: `Clicked Icon Link`,
+                    label: `${media.name}`,
+                  })
+                }
               >
                 <IconComponent />
               </a>
