@@ -16,6 +16,10 @@
     "logo": "gatsby-logo.png"
   },
   {
+    "technology": "CONTENTFUL",
+    "logo": "contentful-logo.png"
+  },
+  {
     "technology": "HTML5",
     "logo": "html5-logo.png"
   },
@@ -38,6 +42,10 @@
   {
     "technology": "MATERIAL UI",
     "logo": "material-ui-logo.svg"
+  },
+  {
+    "technology": "GRAPHQL",
+    "logo": "graphql-logo.svg"
   },
   {
     "technology": "REDUX",
