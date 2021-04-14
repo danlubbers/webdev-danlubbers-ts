@@ -31,16 +31,10 @@ const IndexPage = () => (
       />
     </Helmet>
 
-    <div>
-      <Header />
-      <Bio />
-    </div>
-    <div>
-      <Technology />
-    </div>
-    <div>
-      <Projects />
-    </div>
+    <Header />
+    <Bio />
+    <Technology />
+    <Projects />
   </div>
 );
 
