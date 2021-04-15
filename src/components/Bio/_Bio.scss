@@ -1,30 +1,31 @@
-.bio-container {
+.bio {
   margin: 0 auto;
   width: 90%;
-}
 
-.bio-image {
-  padding: 20px 0;
-  width: 20%;
-  height: auto;
-  border-radius: 50%;
-  margin: 0 auto;
-  display: block;
+  &__image {
+    padding: 20px 0;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
 
-  @media (max-width: 768px) {
-    width: 40%;
+    @media (max-width: 768px) {
+      width: 40%;
+    }
   }
-}
 
-.about-section {
-  color: #999;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 25px;
-  letter-spacing: 2px;
-  padding-bottom: 20px;
-}
+  &__about-section {
+    color: #999;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }
 
-.quote {
-  font-size: 0.9em;
-  text-align: center;
+  &__quote {
+    @extend .bio__about-section;
+    font-size: 0.9em;
+    text-align: center;
+  }
 }

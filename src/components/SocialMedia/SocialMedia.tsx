@@ -6,7 +6,7 @@ import { IconType } from 'react-icons';
 import ReactGA from 'react-ga';
 const SocialMedia = () => (
   <div className="social-media-container">
-    <div className="social-media-wrapper">
+    <div className="icon-wrapper">
       {socialMediaJSON.map(
         (
           media: { name: string; website: string; ['aria-label']: string; ['react-icon']: string },
@@ -29,7 +29,7 @@ const SocialMedia = () => (
           }
 
           return (
-            <div key={index} className="social-media-icon">
+            <div key={index} className="icon-wrapper__icon">
               <a
                 href={`http://${media.website}`}
                 aria-label={media['aria-label']}

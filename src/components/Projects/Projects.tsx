@@ -7,7 +7,7 @@ const Projects = () => {
   const websiteImage = (project: string | null) => {
     return (
       <img
-        className="promo-image"
+        className="screenshot__promo-image"
         src={require(`../../assets/images/${project}`)}
         alt={`${project}`}
       />
@@ -28,17 +28,17 @@ const Projects = () => {
       i: number,
     ) => {
       return (
-        <div className="projects-wrapper" key={i}>
-          <span className="text">{project.client} :</span>
-          <span className="text"> {project.position}</span>
-          <h3>Tech:</h3>
-          <p className="tech">{project.tech}</p>
-          <section>
-            <h3>Project Details:</h3>
-            <p className="details">{project.details}</p>
+        <div className="project" key={i}>
+          <span className="project__text">{project.client} :</span>
+          <span className="project__text"> {project.position}</span>
+          <h3 className="project__heading--3">Tech:</h3>
+          <p className="project__tech">{project.tech}</p>
+          <section className="section">
+            <h3 className="section__heading--3">Project Details:</h3>
+            <p className="section__details">{project.details}</p>
             {project['github-repo'] && (
               <a
-                className="github-text"
+                className="projects-wrapper__github-text"
                 href={`http://${project['github-repo']}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,10 +53,10 @@ const Projects = () => {
                 GITHUB REPO
               </a>
             )}
-            <div className="screenshots">
+            <div className="screenshot">
               {project.website ? (
                 <a
-                  className="project-screenshot"
+                  className="screenshot__project"
                   href={`http://${project.website}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const Projects = () => {
                   {websiteImage(project['promo-image'])}
                 </a>
               ) : (
-                <div className="project-screenshot">{websiteImage(project['promo-image'])}</div>
+                <div className="screenshot__project">{websiteImage(project['promo-image'])}</div>
               )}
             </div>
           </section>

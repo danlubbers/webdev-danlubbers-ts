@@ -12,25 +12,25 @@ const Technology = () => {
   });
 
   return (
-    <div className="skillset-content">
-      <div className="full-stack-container">
-        <h1 className="technology-text">TECHNOLOGIES</h1>
+    <>
+      <div className="technology-container">
+        <h1 className="technology-container__text">TECHNOLOGIES</h1>
       </div>
       <div className="logo-container">
         {technologiesJSON.map((technology: { technology: string; logo: string }, index: number) => {
           return (
             <div key={index} data-aos="fade-up" data-aos-anchor-placement="center-center">
               <img
-                className="logos"
+                className="logo-container__logos"
                 src={require(`../../assets/logos/${technology['logo']}`)}
                 alt={`${technology['technology']} logo`}
               />
-              <h2 className="logo-text">{technology.technology}</h2>
+              <h2 className="logo-container__logo-text">{technology.technology}</h2>
             </div>
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 

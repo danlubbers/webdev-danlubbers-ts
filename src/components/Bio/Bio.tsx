@@ -6,13 +6,13 @@ import './_Bio.scss';
 
 const Bio = () => {
   return (
-    <div className="bio-container">
-      <img className="bio-image" src={bioImage} alt="bio" />
+    <div className="bio">
+      <img className="bio__image" src={bioImage} alt="bio" />
 
       <SocialMedia />
 
       <Codewars />
-      <p className="about-section">
+      <p className="bio__about-section">
         Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
         Retouching. Lubbers got his start with Extreme Sports Photography when he was the sole
         photographer on the La Sportiva Solutions Climbing Tour in 2007 and began shooting for
@@ -71,7 +71,7 @@ const Bio = () => {
         Healthcare Company called Psī. A love of good coffee usually leads one to find him at local
         coffee shops working diligently on his work either at home or when traveling.{' '}
       </p>
-      <p className="about-section quote">
+      <p className="bio__quote">
         &quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard
         James Keenan
       </p>

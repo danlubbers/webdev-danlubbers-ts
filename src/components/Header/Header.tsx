@@ -4,7 +4,7 @@ import './_Header.scss';
 
 const Header = () => (
   <div className="header">
-    <img className="header-logo" src={Logo} alt="header logo" />
+    <img className="header__logo" src={Logo} alt="header logo" />
   </div>
 );
 

@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     (async function getData() {
       try {
-        const res = await axios.get(proxyurl + API);
+        const res = await axios.get(API);
         setRank(res.data.ranks.overall.name);
         setUserName(res.data.username);
         setHonor(res.data.honor);
@@ -27,33 +27,31 @@ const App = () => {
   }, [API, error]);
 
   return (
-    <div className="App">
-      <section className="codewars-wrapper">
-        <div className="text-wrapper">
-          <a
-            href="https://www.codewars.com/users/danlubbers/"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => {
-              ReactGA.event({
-                category: 'Codewars',
-                action: 'User Clicked external link to go to Codewars Website',
-              });
-            }}
-          >
-            <span>
-              <img className="graphic-header" src={graphicHeader} alt="header" />
-              <div className="rank-name-wrapper">
-                <h2 className="kyu">{rank && rank}</h2>
-                <h2 className="username">{username}</h2>
-                <h2 className="honor">{honor}</h2>{' '}
-                <img className="codewars-logo" src={codewarsLogo} alt="codewars-logo" />
-              </div>
-            </span>
-          </a>
-        </div>
-      </section>
-    </div>
+    <section className="codewars">
+      <div className="codewars__content">
+        <a
+          href="https://www.codewars.com/users/danlubbers/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => {
+            ReactGA.event({
+              category: 'Codewars',
+              action: 'User Clicked external link to go to Codewars Website',
+            });
+          }}
+        >
+          <span className="span">
+            <img className="graphic-header" src={graphicHeader} alt="header" />
+            <div className="stats">
+              <h2 className="stats__text stats__kyu">{rank && rank}</h2>
+              <h2 className="stats__text stats__username">{username}</h2>
+              <h2 className="stats__text stats__honor">{honor}</h2>{' '}
+              <img className="stats__codewars-logo" src={codewarsLogo} alt="codewars-logo" />
+            </div>
+          </span>
+        </a>
+      </div>
+    </section>
   );
 };
 
