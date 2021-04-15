@@ -5,20 +5,20 @@
   flex-direction: row;
   justify-content: center;
 
-  .social-media-wrapper {
+  .icon-wrapper {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 
-    .social-media-icon svg {
+    &__icon svg {
       padding: 0 10px;
       width: 35px;
       height: 35px;
       color: #999;
     }
 
-    .social-media-icon svg:hover {
+    &__icon svg:hover {
       color: #9d2e26;
     }
   }

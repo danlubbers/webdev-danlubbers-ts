@@ -6,11 +6,8 @@
   align-items: center;
   margin-bottom: 10px;
   border-radius: 5px;
-}
 
-.header-logo {
-  width: 40%;
-  @media (max-width: 768px) {
+  &__logo {
     width: 80%;
   }
 }
