@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     (async function getData() {
       try {
-        const res = await axios.get(proxyurl + API);
+        const res = await axios.get(API);
         setRank(res.data.ranks.overall.name);
         setUserName(res.data.username);
         setHonor(res.data.honor);

@@ -1,4 +1,4 @@
-.full-stack-container {
+.technology-container {
   margin: 0 auto;
   width: 90%;
   display: flex;
@@ -18,7 +18,7 @@
     font-size: 0.7em;
   }
 
-  .technology-text {
+  &__text {
     font-size: 1.4em;
   }
 }
@@ -41,17 +41,17 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .logos {
+  &__logos {
     height: 50px;
     margin: 5px 20px;
     transition: all 0.2s ease-in-out;
   }
 
-  .logos:hover {
+  &__logos:hover {
     transform: scale(1.1);
   }
 
-  .logo-text {
+  &__logo-text {
     display: flex;
     justify-content: center;
     align-items: center;
