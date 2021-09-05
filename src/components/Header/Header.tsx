@@ -1,4 +1,4 @@
-import Logo from '../../assets/logos/danlubbers-logo.png';
+import Logo from '../../assets/logos/danlubbers_logo_#A52A25_outlined.svg';
 import React from 'react';
 import './_Header.scss';
 
