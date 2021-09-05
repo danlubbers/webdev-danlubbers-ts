@@ -15,8 +15,7 @@ const Bio = () => {
       <p className="bio__about-section">
         Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
         Retouching. Lubbers got his start with Extreme Sports Photography when he was the sole
-        photographer on the La Sportiva Solutions Climbing Tour in 2007 and began shooting for
-        Extreme Sports Editorials and various outdoor companies. Lubbers went on to work in{' '}
+        photographer on the La Sportiva Solutions Climbing Tour in 2007. Lubbers went on to work in{' '}
         <a
           href="https://www.amazon.com/watches/s?k=watches"
           aria-label="Amazon Watches"
@@ -25,8 +24,8 @@ const Bio = () => {
         >
           Amazon&apos;s Largest Photo Studio
         </a>{' '}
-        photographing and retouching for the Jewelry and Watch department. He was the lead retoucher
-        for the 2018 AD campaign for{' '}
+        as a Digital Technician, Retoucher & Photographer for the Jewelry and Watch department. He
+        was the lead retoucher for the 2018 AD campaign for{' '}
         <a
           href="https://www.tempurpedic.com/"
           aria-label="Tempurpedic"
@@ -35,8 +34,8 @@ const Bio = () => {
         >
           Tempurpedic
         </a>
-        . Wanting to add more to his career and an interest in Design and Coding led him to Utah, to
-        take a 3 month intensive Web Development Bootcamp at{' '}
+        . Wanting to add more to his career and an interest in Design and Web Development led him to
+        Utah, to take a 3 month intensive Full Stack Bootcamp at{' '}
         <a
           className="devMtn"
           href="https://devmountain.com/"
@@ -66,10 +65,12 @@ const Bio = () => {
         >
           AlbanyCanCode
         </a>{' '}
-        and has been refining his Javascript skills even further. In May 2020, Dan started as a
-        Front-End React Software Engineer on a small team building an end-to-end app for a
+        where he was able to refine his Javascript skills even further. In May 2020, Dan started as
+        a Front-End React Software Engineer with a small team building an end-to-end app for a
         Healthcare Company called Psī. A love of good coffee usually leads one to find him at local
-        coffee shops working diligently on his work either at home or when traveling.{' '}
+        coffee shops or making a brew on the hatch of his vehicle while in remote locations. Other
+        interests include Psychology, Philosophy, Meditation, Spirituality, hot springs and asian
+        cuisine. Go connect with him on social media!{' '}
       </p>
       <p className="bio__quote">
         &quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard
