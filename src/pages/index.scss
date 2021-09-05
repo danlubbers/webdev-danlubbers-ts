@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 $font-family: 'Montserrat', sans-serif;
-$text-color: #999;
-$hover-color: #9d2e26;
+$text-color: #969696;
+$hover-color: #a52a25;
 
 html {
   margin: auto 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #191919;
+  background-color: #0e0e0e;
 }
 .app-wrapper {
   max-width: 1200px;
