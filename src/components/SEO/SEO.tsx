@@ -1,8 +1,16 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { useStaticQuery, graphql } from 'gatsby';
+
+interface SEOProps {
+  title: string;
+  lang: string;
+  description: string;
+  image: string;
+  article: string;
+  keywords: string;
+}
 
 const query = graphql`
   query SEO {
@@ -21,7 +29,7 @@ const query = graphql`
   }
 `;
 
-const SEO = ({ title, lang, description, image, article, keywords }) => {
+const SEO: React.FC<SEOProps> = ({ title, lang, description, image, article, keywords }) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
   const {
@@ -62,21 +70,3 @@ const SEO = ({ title, lang, description, image, article, keywords }) => {
   );
 };
 export default SEO;
-
-SEO.propTypes = {
-  title: PropTypes.string,
-  lang: PropTypes.string,
-  description: PropTypes.string,
-  keywords: PropTypes.string,
-  image: PropTypes.string,
-  article: PropTypes.bool,
-};
-
-SEO.defaultProps = {
-  title: null,
-  lang: null,
-  description: null,
-  keywords: null,
-  image: null,
-  article: false,
-};
