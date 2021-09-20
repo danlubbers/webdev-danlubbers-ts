@@ -44,9 +44,9 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 onClick={() =>
                   ReactGA.event({
-                    category: 'Projects',
-                    action: `[Github] - Clicked on a project link`,
-                    label: `[Github] - ${project.client}`,
+                    category: 'WebDev: Projects',
+                    action: `WebDev: [Github] - Clicked on a project link`,
+                    label: `WebDev: [Github] - ${project.client}`,
                   })
                 }
               >
@@ -62,9 +62,9 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   onClick={() =>
                     ReactGA.event({
-                      category: 'Projects',
-                      action: `[Website] - Clicked on a project link`,
-                      label: `[Website] - ${project.client}`,
+                      category: 'WebDev: Projects',
+                      action: `WebDev: [Website] - Clicked on a project link`,
+                      label: `WebDev: Website] - ${project.client}`,
                     })
                   }
                 >

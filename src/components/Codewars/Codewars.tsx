@@ -35,8 +35,8 @@ const App = () => {
           rel="noopener noreferrer"
           onClick={() => {
             ReactGA.event({
-              category: 'Codewars',
-              action: 'User Clicked external link to go to Codewars Website',
+              category: 'WebDev: Codewars',
+              action: 'WebDev: User Clicked external link to go to Codewars Website',
             });
           }}
         >

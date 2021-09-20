@@ -37,8 +37,8 @@ const SocialMedia = () => (
                 rel="noopener noreferrer"
                 onClick={() =>
                   ReactGA.event({
-                    category: 'Social Media',
-                    action: `Clicked Icon Link`,
+                    category: 'WebDev: Social Media',
+                    action: `WebDev: Clicked Icon Link`,
                     label: `${media.name}`,
                   })
                 }

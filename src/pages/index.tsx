@@ -14,7 +14,7 @@ const IndexPage = () => (
   <div className="app-wrapper">
     {ReactGA.event({
       category: 'WebDev: Homescreen',
-      action: 'User landed on WebDev homepage',
+      action: 'WebDev: User landed on WebDev homepage',
     })}
     <SEO />
 
