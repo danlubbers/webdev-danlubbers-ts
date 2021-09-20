@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-ts-hello-world",
+  "name": "dan-lubbers-web-development",
   "version": "1.0.0",
   "description": "Typescript Starter with the bare essentials needed for a Gatsby site",
   "scripts": {
@@ -23,6 +23,7 @@
     "aos": "2.3.4",
     "gatsby": "2.31.1",
     "gatsby-plugin-google-analytics": "2.3.17",
+    "gatsby-plugin-robots-txt": "1.6.10",
     "gatsby-plugin-sass": "2.1.14",
     "gatsby-plugin-typescript": "2.1.7",
     "node-sass": "4.14.1",
