@@ -56,6 +56,10 @@
     "logo": "node-logo.png"
   },
   {
+    "technology": "PM2",
+    "logo": "pm2.png"
+  },
+  {
     "technology": "NGINX",
     "logo": "nginx-logo.png"
   },
