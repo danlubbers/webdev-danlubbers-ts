@@ -9,9 +9,18 @@
     "website": "app.psilife.com"
   },
   {
+    "client": "Dan Lubbers Photographs",
+    "position": "Full-Stack Software Engineer | UX / UI | Photographer / Retoucher",
+    "tech": "Gatsby | Typescript | GraphQL | React Helmet | Google Analytics | Netlify",
+    "details": "danlubbersphotographs.com is written in Typescript using Gatsby, data is queried using GraphQL and hosted on Netlify. The site is a fully functioning PWA (Progressive Web Application) ready to download to your mobile device. User is prompted through a Modal created by a React Portal checking the devices specs and through the use of localStorage the PWA modal will only show after 30 days of inactivity. I am proud to say that I achieved all 100% scores across Google's Lighthouse Audit Metrics. Additionally a 100% performance rating on GTMetrix. A screenshot of these scores can be seen in the readme.md file by clicking on the Github Repo link below.",
+    "github-repo": "github.com/danlubbers/danlubbersphotographs.com",
+    "promo-image": "macbook-pro-2021-danlubbersphotographs.png",
+    "website": "danlubbersphotographs.com"
+  },
+  {
     "client": "Sunny Ra",
     "position": "Full-Stack Software Engineer | UX / UI | Photographer",
-    "tech": "React | HTML | SASS | Javascript | Redux | Express | React Helmet | PostgresSQL | Digital Ocean | Google Analytics",
+    "tech": "React | HTML | SASS | Javascript | Redux | Express | React Helmet | PostgreSQL | Digital Ocean | Google Analytics",
     "details": "Client/Artist, Sunny Ra wanted a complete redesign of her portfolio site. I created the wireframe and designed the layout and color scheme. I photographed her portrait for the 'About' section. I then built her site using Reactjs. I made the site fully responsive using Media Queries in SASS. I used React Helmet so google would be able to crawl her site searching for keywords helping SEO (Seach Engine Optimization). I added Google Analytics so Sunny can track her traffic going to her new site.",
     "github-repo": "github.com/danlubbers/sunny-ra.com",
     "promo-image": "sunny-ra-website-apple-devices-2019.png",
@@ -47,7 +56,7 @@
   {
     "client": "Arcteryx",
     "position": "DevMountain: Personal Project",
-    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Hover | Digital Ocean",
+    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgreSQL | Hover | Digital Ocean",
     "details": "I chose to clone an e-commerce site. Cloning this site allowed me to showcase that I can take a design and recreate the layout into a full functioning site. I used CSS3/SASS for all of the styling and to make the design mobile responsive for iphone 6, 7, 8 and desktop. I used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" I used PostgreSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
     "github-repo": "github.com/danlubbers/arcteryx-clone",
     "promo-image": "arcteryx-mbp-promo.png",
@@ -56,7 +65,7 @@
   {
     "client": "Ruffdoggies",
     "position": "DevMountain: Group Project",
-    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgresQL | Hover | Digital Ocean",
+    "tech": "React | HTML | SASS | Javascript | Redux | Node | Express | PostgreSQL | Hover | Digital Ocean",
     "details": "Our group wanted to clone an e-commerce site. Cloning this site allowed us to showcase that we can take a design and recreate the layout into a full functioning site. We used CSS3/SASS for all of the styling. We used React.js to build the site with the use of Javascript along with Redux to manage the \"state.\" We used PostgresSQL and Heroku for database management of the products. The Domain is registered and maintained through Hover and the site is hosted on Digital Ocean.",
     "github-repo": "github.com/danlubbers/ruffwear-clone",
     "promo-image": "ruffdoggies-mbp-promo.png",

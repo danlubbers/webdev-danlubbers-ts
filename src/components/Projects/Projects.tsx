@@ -64,7 +64,7 @@ const Projects = () => {
                     ReactGA.event({
                       category: 'WebDev: Projects',
                       action: `WebDev: [Website] - Clicked on a project link`,
-                      label: `WebDev: Website] - ${project.client}`,
+                      label: `WebDev: [Website] - ${project.client}`,
                     })
                   }
                 >
