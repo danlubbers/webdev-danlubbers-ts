@@ -25,6 +25,7 @@
     "gatsby-plugin-google-analytics": "2.3.17",
     "gatsby-plugin-robots-txt": "1.6.10",
     "gatsby-plugin-sass": "2.1.14",
+    "gatsby-plugin-sharp": "3.14.1",
     "gatsby-plugin-typescript": "2.1.7",
     "node-sass": "4.14.1",
     "react": "16.9.0",

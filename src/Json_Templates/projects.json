@@ -27,6 +27,15 @@
     "website": "sunny-ra.com"
   },
   {
+    "client": "E-Commerce PWA",
+    "position": " Personal Project",
+    "tech": "Gatsby | Typescript | GraphQL | Contentful | Netlify",
+    "details": "A sandbox project using graphql to query data from the Contentful CMS to show a client that they can update their own content without a developer on a daily basis. Search page targets keywords in Contentful's datebase under the product title. Through the use of a React Portal, a modal prompts the user to download the PWA to their Homescreen. The Portal is reused to enable the fullscreen mode for a product.",
+    "github-repo": "github.com/danlubbers/arcteryx-graphql",
+    "promo-image": "arcteryx-iphone12-pwa.png",
+    "website": "zealous-goldwasser-a29aec.netlify.app/"
+  },
+  {
     "client": "Book Store",
     "position": "AlbanyCanCode Project",
     "tech": "React | HTML | SASS | Javascript | UUID Authentication | Protected Routes | Context API",
