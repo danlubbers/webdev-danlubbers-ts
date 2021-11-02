@@ -3,6 +3,7 @@ import bioImage from '../../assets/images/bio.jpg';
 import SocialMedia from '../SocialMedia/SocialMedia';
 import React from 'react';
 import './_Bio.scss';
+import ReactGA from 'react-ga';
 
 const Bio = () => {
   return (
@@ -10,8 +11,27 @@ const Bio = () => {
       <img className="bio__image" src={bioImage} alt="bio" />
 
       <SocialMedia />
-
       <Codewars />
+      <a
+        href={`http://github.com/danlubbers`}
+        aria-label="Git hub contribution graph"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() =>
+          ReactGA.event({
+            category: 'WebDev: GITHUB',
+            action: `WebDev: Clicked Github Contribution Graph`,
+          })
+        }
+      >
+        <div className="bio__github--wrapper">
+          <img
+            className="bio__github-contributions"
+            src="https://ghchart.rshah.org/danlubbers"
+            alt="github contributions for dan lubbers"
+          />
+        </div>
+      </a>
       <p className="bio__about-section">
         Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
         Retouching. Lubbers got his start with Extreme Sports Photography when he was the sole
