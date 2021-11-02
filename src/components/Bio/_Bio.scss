@@ -15,6 +15,18 @@
     }
   }
 
+  &__github--wrapper {
+    width: 100%;
+    margin: 20px 0 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+  }
+  &__github-contributions {
+    width: 95%;
+    padding: 10px 0;
+  }
+
   &__about-section {
     color: #999;
     font-family: 'Montserrat', sans-serif;
