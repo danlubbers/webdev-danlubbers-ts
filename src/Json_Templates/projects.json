@@ -27,6 +27,15 @@
     "website": "sunny-ra.com"
   },
   {
+    "client": "React Native App",
+    "position": " Personal Project",
+    "tech": "React Native | JavaScript | GraphQL | Contentful | Xcode | Simulator",
+    "details": "A recreation of the project below but built with React Native as an App instead of a PWA utilizing the same contentful database using graphql to query data from Contentful. Search page targets keywords in Contentful's datebase under the product title.",
+    "github-repo": "github.com/danlubbers/rn_arcteryx",
+    "promo-image": "rn_arcteryx-promo.png",
+    "website": "s3.amazonaws.com/content.danlubbers.com/img/rn-arcteryx-sample-video.mov"
+  },
+  {
     "client": "E-Commerce PWA",
     "position": " Personal Project",
     "tech": "Gatsby | Typescript | GraphQL | Contentful | Netlify",
